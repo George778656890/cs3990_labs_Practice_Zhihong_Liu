@@ -1,0 +1,197 @@
+* {
+  color: rgb(1, 1, 69);
+  background-color: rgb(233, 47, 236)!important;
+}
+
+#bigTitle{
+  display: inline-block;
+  padding: 20px; /* Space around the text */
+  border: 3px solid black; /* Square border around the text */
+  text-align: center; /* Centers the text horizontally */
+}
+
+h1 {
+  color: rgb(220, 20, 20);
+  background-color: rgb(216, 230, 91);
+  text-align: center; /* Centers the text horizontally */  
+  margin-top: 50px; /* Adds space above the heading */  
+}
+
+h2 {
+  
+  font-style: italic; /* Makes the text italic */
+}
+
+h1,h2{
+  color: rgb(231, 53, 22);
+}
+
+h3 {
+  background-color: #f0f0f0; /* Light gray background */
+  padding: 10px;
+}
+
+.home h3 {
+  font-family: 'Arial', sans-serif;  /* Font family for the home page */
+  color: blue;
+}
+
+.other-page h3 {
+  font-family: 'Times New Roman', serif;  /* Font family for other pages */
+  color: darkgreen;
+}
+
+p.no-red-line {
+  border-bottom: none !important;
+}
+
+p.small-text {
+  font-size: 12px;
+  color: #888888; /* Lighter gray text color */
+  font-family: 'Courier New', monospace; /* Monospaced font */
+  line-height: 1.4; /* Tighter line spacing */
+}
+
+
+p {
+  font-family: 'Arial', sans-serif; /* Default font family */
+  font-size: 16px; /* Default font size */
+  color: black; /* Default text color */
+  line-height: 1.6; /* Line spacing for better readability */
+  margin-bottom: 1em; /* Space between paragraphs */
+  border-bottom: 30px solid red;
+}
+
+p.large-text {
+  font-size: 24px;
+  color: #333333; /* Darker text color */
+  font-family: 'Georgia', serif; /* Serif font */
+  line-height: 1.8; /* More spacing between lines */
+}
+
+.pictureCenter{
+  text-align: center; /* Centers the text horizontally */  
+}
+
+body {  
+  background-image: url('Images\background.jpg')!important; /* Set the background image */  
+  background-size: cover; /* Cover the entire viewport */  
+  background-position: center; /* Center the image */  
+  background-repeat: no-repeat; /* Prevent the image from repeating */  
+  height: 100vh; /* Make the body take the full height of the viewport */  
+  margin: 0; /* Remove default margin */  
+  padding-left: 200px;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 100;
+  height: 2000px; /* To create a scrollable page */
+}
+
+
+.link {  
+  margin: 50px; /* Adds space around the link */  
+  padding: 10px; /* Adds space inside the link */  
+  display: inline-block; /* Allows margin and padding to work */  
+  background-color: #007bff;  
+  color: rgb(16, 23, 228);  
+  text-decoration: none;  
+  border-radius: 5px;  
+  font-size:xx-large;
+}  
+
+.float-left {  
+  float: left;  
+  margin-right: 15px; /* Adds space between the image and text */  
+}
+
+.bordered-image-yellow {
+  border: 5px solid rgb(239, 235, 46); /* Change color here */
+}
+
+.bordered-image-red {
+  border: 5px solid rgb(221, 14, 35); /* Change color here */
+}
+
+.bordered-image-blue {
+  border: 5px solid rgb(16, 23, 228); /* Change color here */
+}
+
+#top{
+  font-size: 80px!important;
+  color: rgb(16, 51, 228);
+  font:icon
+  position:fixed!important; /* Fixes the position relative to the viewport */  
+  bottom: 20px!important;   /* Distance from the bottom */  
+  right: 20px!important;    /* Distance from the right */   
+  padding: 10px;  /* Some padding */  
+  border-radius: 5px; /* Optional: Rounded corners */  
+  text-decoration: none; /* Remove underline */  
+  z-index: 1000;  /* Ensure it appears above other elements */  
+}
+
+#bottom-attribute{
+  font-size: 80px!important;
+  color: rgb(16, 51, 228);
+  font:icon
+  position:fixed!important; /* Fixes the position relative to the viewport */  
+  top: 20px!important;   /* Distance from the bottom */  
+  right: 10px!important;    /* Distance from the right */   
+  padding: 10px;  /* Some padding */  
+  border-radius: 5px; /* Optional: Rounded corners */  
+  text-decoration: none; /* Remove underline */  
+  z-index: 1000;  /* Ensure it appears above other elements */  
+}
+
+#thin-font{
+    font-weight: 300; /* Use a lighter weight */  
+    font-family: Arial, sans-serif; /* Example font family */  
+}
+
+
+
+.button-list {  
+  list-style-type: none; /* Remove bullets */  
+  padding: 0;  
+}  
+
+.button-list li {  
+  display: inline-block; /* Arrange list items horizontally */  
+  margin: 5px; /* Space between buttons */  
+}  
+
+.button-list a {  
+  text-decoration: none; /* Remove underline */  
+  padding: 10px 15px; /* Add padding */  
+  background-color: #007BFF; /* Background color */  
+  color: white; /* Text color */  
+  border-radius: 5px; /* Rounded corners */  
+  transition: background-color 0.3s; /* Smooth transition */  
+}  
+
+.button-list a:hover {  
+  background-color: #0056b3; /* Darker color on hover */  
+}  
+
+.info-container {  
+  display: flex; /* Enables flexbox */  
+  justify-content: space-between; /* Distributes space between the blocks */  
+  margin: 20px; /* Optional: Adds margin around the container */  
+}  
+
+.menu {  
+  flex: 1; /* Each menu takes equal space */  
+  margin: 10px; /* Optional: Adds space between the blocks */  
+  padding: 20px; /* Optional: Adds padding inside the blocks */  
+  background-color: rgba(255, 255, 255, 0.8); /* Optional: Background color */  
+  border-radius: 5px; /* Optional: Rounded corners */  
+}  
+
+.menu ol li,  
+.menu ul li {  
+  display: block; /* Ensure each list item is on its own line */  
+  margin-bottom: 10px; /* Adds space between list items */  
+}
+
