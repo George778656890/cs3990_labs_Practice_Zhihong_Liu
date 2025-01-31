@@ -1,0 +1,207 @@
+* {
+  color: rgb(1, 1, 69);
+  
+}
+
+
+div header {
+  color: rgb(17, 37, 217);
+  display: inline-block;
+  text-align: center;
+  
+}
+
+
+
+#myphote{
+  display: block;
+  margin-left: 4.8cm;
+}
+
+
+
+div{
+  background-color: rgb(183, 15, 221);
+}
+
+
+div.headerrr{
+  
+  margin-top: 1cm;
+  margin-left:1cm;
+  margin-right: 1cm;
+  height: 5cm;
+  text-align: center;
+  padding-top: 1cm;
+}
+
+div h4{
+  text-align: center;
+}
+
+
+
+div.menu{
+
+  margin-left:1cm;
+  margin-right: 1cm;
+  margin-top: 0.5cm;
+  height:3cm;
+}
+
+.asides-container {  
+  display: block;  
+  justify-content: space-between; /* Adjusts spacing */  
+  background-color: transparent;
+  margin-top: 1cm; /* Same margin as your aside divs */  
+  margin-left: 1cm;  
+  margin-right: 1cm;  
+
+}  
+
+
+
+
+div.aside1{
+  display: block; /* Ensure it's treated as a block element */
+  background-color: rgb(0, 255, 242);
+  margin-top: 0cm;
+  margin-left:0cm;
+  width:20%;
+  height:3cm;
+  position:sticky;
+  top: 0;
+
+}
+
+
+
+
+div.aside2{
+  background-color: springgreen;
+  margin-top: 1cm;
+  margin-left:0cm;
+  width:20%;
+  height:7cm;
+}
+div.mainContent{
+  background-color: yellow;
+  margin-top: 1cm;
+  margin-left:7.9cm;
+  margin-right:1.5cm;
+  width:58%;
+  height:11cm;
+  padding-top: 0.2cm;
+}
+
+div.mainContent1{
+  
+  margin-top: 1cm;
+}
+
+div.mainContent2{
+  
+  margin-top: 1cm;
+}
+
+
+div h2{
+  text-align: center;
+}
+
+
+
+div.aside2{
+  background-color: rgb(226, 219, 205);
+  padding-color: rgb(237, 40, 9);
+  border-color: black;
+  
+}
+
+.aside2 li{
+  margin-bottom: 1px;
+  
+}
+
+
+
+div.aside3{
+  background-color: rgb(226, 219, 205);
+  margin-top: 0cm;
+  margin-right:0cm;
+  width:20%;
+  height:11.2cm;
+}
+
+div.img2 img {  
+ 
+  object-fit: cover; /* Cover the entire block */  
+}  
+
+div.img2{
+  background-color: rgb(226, 219, 205);
+}
+
+
+div.footerrr{
+  background-color: rgb(0, 255, 242);
+  margin-top: 1cm;
+  margin-left:1cm;
+  margin-right: 1cm;
+  margin-bottom: 2cm;
+  height:200px;
+  width: 1430px;
+}
+
+th a:hover{
+  text-decoration: underline;
+}
+
+
+
+
+p {
+  color: rgb(3, 60, 62);
+}
+
+a{
+  background-color: rgb(9, 32, 237);
+  font-stype:italic;
+  border: 2px solid white; ; /* Change the color and width as needed */  
+  padding: 5px;           /* Adds space inside the border */  
+  text-decoration: none;   /* Removes the underline from the link */  
+  display: inline-block;   /* Ensures the border only surrounds the link */  
+  margin-top: 1cm;
+  margin-left: 1cm;   /*Link button positions*/
+  border-radius: 5px; /* Rounded corners */
+  color:white; /* Text color */ 
+}
+
+a.highlight:hover{
+  background-color: rgb(237, 9, 180);
+}
+
+ul img{
+  width:15px ;
+  height:15px;
+}
+
+ul li{
+  line-height: 1.5;
+}
+
+ul li:nth-child(odd) {  
+  background-color: #25b9e2; /* Light gray for odd items */  
+}  
+ul li:nth-child(even) {  
+  background-color: #a6dce8; /* Dark gray for even items */  
+}  
+
+ol li{
+  background-color:chocolate
+}
+
+a.socialMedia:hover{
+
+  background-color: rgb(237, 40, 9);
+}
