@@ -1,0 +1,260 @@
+[class*="col-"] {
+  float: left;
+  padding: 15px;
+}
+
+* {
+  box-sizing: border-box;
+
+}
+
+.header{
+  background-color: #4c066f;
+  color: #ffffff;
+  padding: 15px;
+  text-align: center;
+}
+
+.main::after {
+  content: "";
+  clear: both;
+  display: block;
+  }
+
+.menu ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.menu li {
+  padding: 5px;
+  margin-bottom: 7px;
+  background-color:#a550cf;
+  color: #ffffff;
+}
+
+.menu li:hover {
+  background-color: #4b1566;
+}
+
+.content {
+  padding: 10px;
+  text-align: justify;
+  color:  #4b1566;
+}
+
+.right {
+  background-color:#a550cf;
+  color: #ffffff;
+  text-align: center;
+}
+
+.footer {
+  padding: 15px;
+  text-align: left;
+  color:  #4b1566;
+  font-weight: bold;
+  background-color:#a550cf;
+}
+
+
+/* Mobile First - For mobile phones: */
+[class*="col-"] {
+  width: 100%;
+}
+
+.ad,.ad-right,.job-description-left,.job-description-right,.salary-left,.salary-right,#image-container{
+  width:100%;
+}
+
+
+
+
+/* For desktop: */
+@media only screen and (min-width: 768px) {
+.col-1,.col-3 {width: 25%;}
+.col-2 {width: 50%;}
+.ad,.ad-right,.job-description-left,.job-description-right,.salary-left,.salary-right{width:40%;}
+#image-container{width:40%;}
+}
+
+
+
+.tab{
+  background-color:#a550cf;
+  float:left;
+  margin-right: 10px;
+  text-align: center;
+}
+
+.tab:hover{
+  background-color: #4b1566;
+  color: #ffffff;
+}
+
+.col-2 div{
+  display:none;
+}
+
+.col-2 div:target{
+  display:block;
+}
+
+.col-2 #image-container{
+  display:block;
+  width:100%;
+  height:100%;
+}
+
+.col-2 #image-container:hover{
+  display:none;
+}
+
+
+
+
+
+
+
+
+
+
+
+li img{
+  width:20px;
+  height:20px;
+}
+
+#alberta:hover::after{
+  content:"             661,848 km²";
+  font-style: italic; 
+}
+
+#bc:hover::after{
+  content:"             944,735 km²";
+  font-style: italic; 
+}
+
+#manitoba:hover::after{
+  content:"             647,797 km²";
+  font-style: italic; 
+}
+
+#NewBrunswick:hover::after{
+  content:"             72,908 km²";
+  font-style: italic; 
+}
+
+#Newfoundland:hover::after{
+  content:"             405,212 km²";
+  font-style: italic; 
+}
+
+#NovaScotia:hover::after{
+  content:"             55,284 km²";
+  font-style: italic; 
+}
+
+#Ontario:hover::after{
+  content:"             1,076,395 km²";
+  font-style: italic; 
+}
+
+#Prince:hover::after{
+  content:"             5,660 km²";
+  font-style: italic; 
+}
+
+#Quebec:hover::after{
+  content:"             1,542,056 km²";
+  font-style: italic; 
+}
+
+#Saskatchewan:hover::after{
+  content:"             651,036 km²";
+  font-style: italic; 
+}
+
+
+
+.ad{
+  display:block;
+  border-top-right-radius: 30%;
+  
+  height:70%;
+  float:left;
+  background-color: aqua;
+  border-style: groove;
+}
+
+.ad-right{
+  display:block;
+  border-top-right-radius: 30%;
+  
+  height:70%;
+  float:right;
+  background-color: aqua;
+  border-style: groove;
+}
+
+
+
+
+
+.ad-decoration{
+  display:block;
+  margin-top: 0px;
+  margin-left: 0px;
+  width:80%;
+  height: 15%;
+  position:relative;
+  border-top-right-radius: 20%;
+  border-bottom-right-radius: 20%;
+  background-color:crimson;
+  border-style: groove;
+  text-align: top;
+}
+.ad-content{
+  width:100%;
+}
+
+.job-description-left{
+  display:block;
+  
+  height:70%;
+  float:left;
+  clear:left;
+}
+
+.job-description-right{
+  display:block;
+  
+  height:70%;
+  float:right;
+  clear:right;
+}
+
+.salary-left{
+  display:block;
+  
+  float:left;
+  clear:left;
+  text-align: right;
+}
+
+.salary-left p::before{
+  content:"$";
+}
+
+.salary-right{
+  display:block;
+  
+  float:right;
+  clear:right;
+  text-align: right;
+}
+
+.salary-right p::before{
+  content:"$";
+}
