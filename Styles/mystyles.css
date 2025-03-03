@@ -1,0 +1,352 @@
+* {
+  color: rgb(1, 1, 69);
+  
+}
+
+a {  
+  text-decoration: none;  
+}  
+
+.body{
+  display:grid;
+  grid-template-columns: repeat(auto-fit, minmax(45px, 1fr));
+}
+
+.top-left{
+  display:inline-block;
+  grid-area: 1 / 2 / 4/ 15;
+  margin-right: 0%;
+  padding-right: 0%;
+}
+
+.top-left-text h1{
+  position:absolute;
+  top: 20%;
+  color: aqua !important;
+  text-align: center;
+}
+
+
+
+.top-right{
+  display:inline-block;
+  grid-area: 1 / 15 / 4 / 31;
+  margin-left: 0%;
+  padding-left: 0%;
+}
+
+
+.top-right-text{
+  position:absolute;
+  top: 15%;
+}
+
+
+.top-right-text h4{
+  color:white;
+}
+
+.top-right-text a{
+  color: white;
+  font-size: large;
+}
+
+.top-right-text a:hover{
+  color: black;
+}
+
+
+.top-left img, .top-right img{
+  width: 100%;
+  height: 100%;
+}
+
+.middle-left{
+  display:inline-block;
+  grid-area: 6 / 3 / 10 / 12;
+  margin-right: 0%;
+  padding-right: 0%;
+  margin-top: 2%;
+  padding-top: 2%;
+  border-top-left-radius: 5%;
+  border-top-right-radius: 5%;
+  border-style: groove;
+}
+
+.middle-middle{
+  display:inline-block;
+  grid-area: 6 / 13 / 10 / 22;
+  padding-left: 0.5%;
+  padding-right: 0.5%;
+  margin-top: 2%;
+  padding-top: 2%;
+  border-top-left-radius: 5%;
+  border-top-right-radius: 5%;
+  border-style: groove;
+}
+
+.diploma-picture{
+  
+  width: 100%;
+  height: 50%;
+  border-top-left-radius: 5%;
+  border-top-right-radius: 5%;
+  display: flex; /* Use flexbox */  
+  justify-content: center; /* Center horizontally */  
+  align-items: center; /* Center vertically */ 
+  overflow: hidden;
+}
+
+div a{
+  display: block;
+  width: 30%;
+  height: 100%;
+  background-color: gold;
+  border-style:hidden;
+  text-align: center;
+}
+
+.diploma-link a {  
+  color: white; /* Set link color to white */  
+}
+
+.diploma-link a:hover {  
+  color: black; /* Set link color to black on hover */  
+}
+
+.diploma-title{
+  position:absolute;
+  top: 55%;
+  background-color: darkgray;
+  
+}
+
+.diploma-title h3{
+  color: white!important;
+}
+
+
+
+.middle-right{
+  display:inline-block;
+  grid-area: 6 / 23 / 10 / 31;
+  
+  margin-top: 2%;
+  padding-top: 2%;
+  border-top-left-radius: 5%;
+  border-top-right-radius: 5%;
+  border-style: groove;
+}
+
+
+.middle-left img,.middle-middle img, .middle-right img, .card1 img, .card2 img, .card3 img, .card4 img, .card5 img, .card6 img,.card7 img, .card8 img, .card9 img, .card10 img, .card11 img, .card12 img{
+  width: 75%;
+  height: 75%;
+  border-top-left-radius: 5%;
+  border-top-right-radius: 5%;
+  transition: transform 0.3s ease;
+}
+
+.card1 img:hover, .card2 img:hover, .card3 img:hover, .card4 img:hover, .card5 img:hover, .card6 img:hover,.card7 img:hover, .card8 img:hover, .card9 img:hover, .card10 img:hover, .card11 img:hover, .card12 img:hover{
+  transform: scale(1.2);
+}
+
+.card1:hover::after,.card2:hover::after,.card3:hover::after,.card4:hover::after,.card5:hover::after,.card6:hover::after,.card7:hover::after,.card8:hover::after,.card9:hover::after,.card10:hover::after,.card11:hover::after,.card12:hover::after{
+  content: "Credits-3 \A Total  Hour-90"; 
+  white-space: pre; /* This allows the line break to be respected */
+}
+
+
+
+.card1{
+  display:inline-block;
+  grid-area: 10 / 4 / 12 / 10;
+  margin-right: 0%;
+  padding-right: 0%;
+  margin-top: 2%;
+  padding-top: 2%;
+  text-align: center;
+}
+
+.card2{
+  display:inline-block;
+  grid-area: 10 / 11 / 12 / 17;
+  margin-left: 0%;
+  padding-left: 0%;
+  margin-right: 0%;
+  padding-right: 0%;
+  margin-top: 2%;
+  padding-top: 2%;
+  text-align: center;
+}
+
+.card3{
+  display:inline-block;
+  grid-area: 10 / 18 / 12 / 24;
+  margin-left: 0%;
+  padding-left: 0%;
+  margin-right: 0%;
+  padding-right: 0%;
+  margin-top: 2%;
+  padding-top: 2%;
+  text-align: center;
+}
+
+.card4{
+  display:inline-block;
+  grid-area: 10 / 25 / 12 / 31;
+  margin-left: 0%;
+  padding-left: 0%;
+  margin-top: 2%;
+  padding-top: 2%;
+  text-align: center;
+}
+
+
+.card5{
+  display:inline-block;
+  grid-area: 14 / 4 / 16 / 10;
+  margin-right: 0%;
+  padding-right: 0%;
+  margin-top: 2%;
+  padding-top: 2%;
+  text-align: center;
+}
+
+.card6{
+  display:inline-block;
+  grid-area: 14 / 11 / 16 / 17;
+  margin-left: 0%;
+  padding-left: 0%;
+  margin-right: 0%;
+  padding-right: 0%;
+  margin-top: 2%;
+  padding-top: 2%;
+  text-align: center;
+}
+
+.card7{
+  display:inline-block;
+  grid-area: 14 / 18 / 16 / 24;
+  margin-left: 0%;
+  padding-left: 0%;
+  margin-right: 0%;
+  padding-right: 0%;
+  margin-top: 2%;
+  padding-top: 2%;
+  text-align: center;
+}
+
+.card8{
+  display:inline-block;
+  grid-area: 14 / 25 / 16 / 31;
+  margin-left: 0%;
+  padding-left: 0%;
+  margin-top: 2%;
+  padding-top: 2%;
+  text-align: center;
+}
+
+.card9{
+  display:inline-block;
+  grid-area: 18 / 4 / 20 / 10;
+  margin-right: 0%;
+  padding-right: 0%;
+  margin-top: 2%;
+  padding-top: 2%;
+  text-align: center;
+}
+
+.card10{
+  display:inline-block;
+  grid-area: 18 / 11 / 20 / 17;
+  margin-left: 0%;
+  padding-left: 0%;
+  margin-right: 0%;
+  padding-right: 0%;
+  margin-top: 2%;
+  padding-top: 2%;
+  text-align: center;
+}
+
+.card11{
+  display:inline-block;
+  grid-area: 18 / 18 / 20 / 24;
+  margin-left: 0%;
+  padding-left: 0%;
+  margin-right: 0%;
+  padding-right: 0%;
+  margin-top: 2%;
+  padding-top: 2%;
+  text-align: center;
+}
+
+.card12{
+  display:inline-block;
+  grid-area: 18 / 25 / 20 / 31;
+  margin-left: 0%;
+  padding-left: 0%;
+  margin-top: 2%;
+  padding-top: 2%;
+  text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.footer {
+  position: fixed;
+  bottom:0;
+  width:100%;
+  text-align: left;
+  color:  #4b1566;
+  font-weight: bold;
+  background-color:#a550cf;
+  height: 40px;
+}
+
+.footer section{
+    width:40%;
+    margin: 1% auto;
+      
+}
+
+.text-left {
+    float:left;
+    padding-left:1%;    
+}
+
+.text-right{
+    text-align: right;
+    float:right;
+    padding-right:1%;  
+}
