@@ -1,0 +1,42 @@
+/* styles.css */  
+
+.coffee-beans {  
+    border: 2px solid #6f4c3e; /* Brown */  
+    padding: 10px;  
+    margin: 10px;  
+}  
+
+.coffee-and-tea-accessories {  
+    border: 2px solid #d9d9d9; /* Light grey */  
+    padding: 10px;  
+    margin: 10px;  
+}  
+
+.coffee-makers {  
+    border: 2px solid #ffcc00; /* Yellow */  
+    padding: 10px;  
+    margin: 10px;  
+}  
+
+.item {  
+    display: flex;  
+    flex-direction: column;  
+    align-items: center;  
+    text-align: center;  
+}  
+
+/* Optional: Style toggled text */  
+#toggleText {  
+    cursor: pointer; /* Makes it clickable */  
+}  
+
+#itemsGroups{
+    background-color: aqua;
+}
+
+.checked-checkbox {  
+    background-color: #e0f7fa; /* Light teal background */  
+    border: 2px solid #00796b; /* Darker teal border */  
+    border-radius: 5px; /* Rounded corners */  
+    padding: 5px; /* Some padding for visual comfort */  
+}  
